@@ -13,6 +13,7 @@ export default function Home() {
 
   return (
     <div className="min-h-screen text-white">
+      {/*header*/}
       <Header />
       <main className="pt-16">
         {/* Featured Movie Banner */}
