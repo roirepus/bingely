@@ -29,3 +29,15 @@ jobs:
       -    
         name: Verify Pushed Image
         run: docker pull roirepus/bingely:latest
+      -    
+        name: Deploy to VPS
+        uses: appleboy/ssh-action@master
+        with:
+          host: ${{secrets.SSH_HOST}}
+          username: ${{secrets.SSH_USERNAME}}
+          key: ${{secrets.SSH_KEY}}
+          script: |
+            docker pull roirepus/bingely
+            docker stop bingely || true
+            docker rm bingely || true
+            docker run -d --name bingely -p 3005:3000 roirepus/bingely:latest
