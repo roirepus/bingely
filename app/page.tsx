@@ -16,7 +16,6 @@ export default function Home() {
       {/*header*/}
       <Header />
       <main className="pt-16">
-        {/* Featured Movie Banner */}
         <FeaturedMovie
           title="Dune: Part Two"
           description="Paul Atreides unites with Chani and the Fremen while seeking revenge against the conspirators who destroyed his family."
