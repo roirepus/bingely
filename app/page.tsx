@@ -10,7 +10,7 @@ export default async function Home() {
 
   const featuredMovie = await getFeaturedMovie();
   const trendingMovies: featuredMovieDetails[] = await getTrendingMovies();
-  const trendingTVShows: tvShowsDetails[] | undefined = await getTrendingTVShows();
+  const trendingTVShows: tvShowsDetails[] = await getTrendingTVShows();
   return (
     <div className="min-h-screen text-white">
       {/*header*/}

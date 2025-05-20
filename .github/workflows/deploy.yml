@@ -37,7 +37,7 @@ jobs:
           username: ${{secrets.SSH_USERNAME}}
           key: ${{secrets.SSH_KEY}}
           script: |
-            docker pull roirepus/bingely
+            docker pull roirepus/bingely:latest
             docker stop bingely || true
             docker rm bingely || true
-            docker run -d --name bingely -p 3005:3000 roirepus/bingely:latest
+            docker run -d -p 3005:3000 --name bingely  roirepus/bingely:latest
