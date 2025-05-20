@@ -21,7 +21,7 @@ export default async function Home() {
         <FeaturedMovie
           title={featuredMovie.title}
           description={featuredMovie.overview}
-          imageUrl={`https://image.tmdb.org/t/p/w500${featuredMovie.poster_path}`}
+          imageUrl={`${imageUrlPrefix}original${featuredMovie.poster_path}`}
           rating={featuredMovie.vote_average}
           year={2024}
           duration="166 min"
