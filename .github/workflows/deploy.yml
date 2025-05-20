@@ -33,7 +33,7 @@ jobs:
         name: Deploy to VPS
         uses: appleboy/ssh-action@master
         env:
-          NEXT_PRIVATE_TMDB_AUTH_HEADER: ${{secres.NEXT_PRIVATE_TMDB_AUTH_HEADER }}
+          NEXT_PRIVATE_TMDB_AUTH_HEADER: ${{secrets.NEXT_PRIVATE_TMDB_AUTH_HEADER }}
         with:
           host: ${{secrets.SSH_HOST}}
           username: ${{secrets.SSH_USERNAME}}
