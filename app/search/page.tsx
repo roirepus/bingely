@@ -19,7 +19,7 @@ export default function SearchPage() {
   // Mock search results
   const searchResults = [
     {
-      id: "1",
+      id: 1,
       title: "The Batman",
       imageUrl: "/placeholder.svg?height=450&width=300",
       rating: 4.5,
@@ -27,7 +27,7 @@ export default function SearchPage() {
       genre: "Action",
     },
     {
-      id: "2",
+      id: 2,
       title: "Top Gun: Maverick",
       imageUrl: "/placeholder.svg?height=450&width=300",
       rating: 4.7,
@@ -35,7 +35,7 @@ export default function SearchPage() {
       genre: "Action",
     },
     {
-      id: "3",
+      id: 3,
       title: "Everything Everywhere All at Once",
       imageUrl: "/placeholder.svg?height=450&width=300",
       rating: 4.9,
@@ -43,7 +43,7 @@ export default function SearchPage() {
       genre: "Sci-Fi",
     },
     {
-      id: "4",
+      id: 4,
       title: "The Whale",
       imageUrl: "/placeholder.svg?height=450&width=300",
       rating: 4.3,
@@ -51,7 +51,7 @@ export default function SearchPage() {
       genre: "Drama",
     },
     {
-      id: "5",
+      id: 5,
       title: "Black Panther: Wakanda Forever",
       imageUrl: "/placeholder.svg?height=450&width=300",
       rating: 4.4,
@@ -59,7 +59,7 @@ export default function SearchPage() {
       genre: "Action",
     },
     {
-      id: "6",
+      id: 6,
       title: "Oppenheimer",
       imageUrl: "/placeholder.svg?height=450&width=300",
       rating: 4.8,
@@ -67,7 +67,7 @@ export default function SearchPage() {
       genre: "Drama",
     },
     {
-      id: "7",
+      id: 7,
       title: "Barbie",
       imageUrl: "/placeholder.svg?height=450&width=300",
       rating: 4.2,
@@ -75,7 +75,7 @@ export default function SearchPage() {
       genre: "Comedy",
     },
     {
-      id: "8",
+      id: 8,
       title: "Poor Things",
       imageUrl: "/placeholder.svg?height=450&width=300",
       rating: 4.6,

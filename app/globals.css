@@ -5,7 +5,8 @@
 
 
 .header {
-  background-color: rgba(30, 30, 46, 0.8);
+
+  background-color: rgba(17, 17, 27, 0.8);
 
   ;
 }
@@ -161,7 +162,7 @@
 }
 
 body {
-  background: var(--color-mocha-base);
+  background: var(--color-mocha-crust);
   color: var(--color-mocha-text);
 }
 

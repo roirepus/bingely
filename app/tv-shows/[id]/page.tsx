@@ -157,7 +157,7 @@ export default function SeriesDetailPage({ params }: { params: Promise<{ id: str
               <div className="flex flex-wrap items-center gap-3 text-sm">
                 <div className="flex items-center">
                   <Star className="h-4 w-4 text-mocha-yellow mr-1" />
-                  <span>{series.rating}/5</span>
+                  <span>{series.rating}/10</span>
                 </div>
                 <span>{series.year}</span>
                 <span>

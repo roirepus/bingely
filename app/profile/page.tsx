@@ -13,27 +13,27 @@ export default function ProfilePage() {
     avatar: "/placeholder.svg?height=200&width=200",
     memberSince: "March 2022",
     watchHistory: [
-      { id: "1", title: "The Batman", imageUrl: "/placeholder.svg?height=450&width=300", rating: 4.5, progress: 75 },
+      { id: 1, title: "The Batman", imageUrl: "/placeholder.svg?height=450&width=300", rating: 4.5, progress: 75 },
       {
-        id: "3",
+        id: 3,
         title: "Everything Everywhere All at Once",
         imageUrl: "/placeholder.svg?height=450&width=300",
         rating: 4.9,
         progress: 100,
       },
-      { id: "6", title: "Oppenheimer", imageUrl: "/placeholder.svg?height=450&width=300", rating: 4.8, progress: 30 },
-      { id: "8", title: "Poor Things", imageUrl: "/placeholder.svg?height=450&width=300", rating: 4.6, progress: 50 },
+      { id: 6, title: "Oppenheimer", imageUrl: "/placeholder.svg?height=450&width=300", rating: 4.8, progress: 30 },
+      { id: 8, title: "Poor Things", imageUrl: "/placeholder.svg?height=450&width=300", rating: 4.6, progress: 50 },
     ],
     savedMovies: [
-      { id: "2", title: "Top Gun: Maverick", imageUrl: "/placeholder.svg?height=450&width=300", rating: 4.7 },
-      { id: "4", title: "The Whale", imageUrl: "/placeholder.svg?height=450&width=300", rating: 4.3 },
+      { id: 2, title: "Top Gun: Maverick", imageUrl: "/placeholder.svg?height=450&width=300", rating: 4.7 },
+      { id: 4, title: "The Whale", imageUrl: "/placeholder.svg?height=450&width=300", rating: 4.3 },
       {
-        id: "5",
+        id: 5,
         title: "Black Panther: Wakanda Forever",
         imageUrl: "/placeholder.svg?height=450&width=300",
         rating: 4.4,
       },
-      { id: "7", title: "Barbie", imageUrl: "/placeholder.svg?height=450&width=300", rating: 4.2 },
+      { id: 7, title: "Barbie", imageUrl: "/placeholder.svg?height=450&width=300", rating: 4.2 },
     ],
   }
 

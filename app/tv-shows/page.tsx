@@ -13,7 +13,7 @@ import Header from "@/components/Header"
 // Mock TV series data
 const allSeries = [
   {
-    id: "1",
+    id: 1,
     title: "Stranger Things",
     imageUrl: "/placeholder.svg?height=450&width=300",
     rating: 4.8,
@@ -23,7 +23,7 @@ const allSeries = [
     currentSeason: "Season 4",
   },
   {
-    id: "2",
+    id: 2,
     title: "Breaking Bad",
     imageUrl: "/placeholder.svg?height=450&width=300",
     rating: 4.9,
@@ -33,7 +33,7 @@ const allSeries = [
     currentSeason: "Complete",
   },
   {
-    id: "3",
+    id: 3,
     title: "The Last of Us",
     imageUrl: "/placeholder.svg?height=450&width=300",
     rating: 4.7,
@@ -43,7 +43,7 @@ const allSeries = [
     currentSeason: "Season 1",
   },
   {
-    id: "4",
+    id: 4,
     title: "Game of Thrones",
     imageUrl: "/placeholder.svg?height=450&width=300",
     rating: 4.6,
@@ -53,7 +53,7 @@ const allSeries = [
     currentSeason: "Complete",
   },
   {
-    id: "5",
+    id: 5,
     title: "The Mandalorian",
     imageUrl: "/placeholder.svg?height=450&width=300",
     rating: 4.5,
@@ -63,7 +63,7 @@ const allSeries = [
     currentSeason: "Season 3",
   },
   {
-    id: "6",
+    id: 6,
     title: "House of the Dragon",
     imageUrl: "/placeholder.svg?height=450&width=300",
     rating: 4.4,
@@ -73,7 +73,7 @@ const allSeries = [
     currentSeason: "Season 1",
   },
   {
-    id: "7",
+    id: 7,
     title: "The Bear",
     imageUrl: "/placeholder.svg?height=450&width=300",
     rating: 4.8,
@@ -83,7 +83,7 @@ const allSeries = [
     currentSeason: "Season 2",
   },
   {
-    id: "8",
+    id: 8,
     title: "Succession",
     imageUrl: "/placeholder.svg?height=450&width=300",
     rating: 4.7,
@@ -93,7 +93,7 @@ const allSeries = [
     currentSeason: "Complete",
   },
   {
-    id: "9",
+    id: 9,
     title: "The Boys",
     imageUrl: "/placeholder.svg?height=450&width=300",
     rating: 4.6,
@@ -103,7 +103,7 @@ const allSeries = [
     currentSeason: "Season 3",
   },
   {
-    id: "10",
+    id: 10,
     title: "The Crown",
     imageUrl: "/placeholder.svg?height=450&width=300",
     rating: 4.5,
@@ -113,7 +113,7 @@ const allSeries = [
     currentSeason: "Season 6",
   },
   {
-    id: "11",
+    id: 11,
     title: "Severance",
     imageUrl: "/placeholder.svg?height=450&width=300",
     rating: 4.8,
@@ -123,7 +123,7 @@ const allSeries = [
     currentSeason: "Season 1",
   },
   {
-    id: "12",
+    id: 12,
     title: "Ted Lasso",
     imageUrl: "/placeholder.svg?height=450&width=300",
     rating: 4.7,
@@ -133,7 +133,7 @@ const allSeries = [
     currentSeason: "Complete",
   },
   {
-    id: "13",
+    id: 13,
     title: "The White Lotus",
     imageUrl: "/placeholder.svg?height=450&width=300",
     rating: 4.5,
@@ -143,7 +143,7 @@ const allSeries = [
     currentSeason: "Season 2",
   },
   {
-    id: "14",
+    id: 14,
     title: "Yellowstone",
     imageUrl: "/placeholder.svg?height=450&width=300",
     rating: 4.4,
@@ -153,7 +153,7 @@ const allSeries = [
     currentSeason: "Season 5",
   },
   {
-    id: "15",
+    id: 15,
     title: "Wednesday",
     imageUrl: "/placeholder.svg?height=450&width=300",
     rating: 4.3,
@@ -163,7 +163,7 @@ const allSeries = [
     currentSeason: "Season 1",
   },
   {
-    id: "16",
+    id: 16,
     title: "Squid Game",
     imageUrl: "/placeholder.svg?height=450&width=300",
     rating: 4.6,

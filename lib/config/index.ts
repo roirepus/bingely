@@ -2,7 +2,7 @@
 const config = {
   env: {
     tmdb: {
-      tmdbAccessToken: process.env.NEXT_PRIVATE_TMDB_ACCESS_TOKEN,
+      tmdbAuthHeader: process.env.NEXT_PRIVATE_TMDB_AUTH_HEADER,
       tmdbApi: process.env.NEXT_PRIVATE_TMDB_API_KEY
     }
   }

@@ -17,7 +17,7 @@ export default function FeaturedMovie({ title, description, imageUrl, rating, ye
     <div className="relative h-[70vh] w-full">
       <div className="absolute inset-0">
         <Image src={imageUrl || "https://placehold.co/600x400"} alt={title} fill className="object-cover" priority />
-        <div className="absolute inset-0 bg-gradient-to-r from-mocha-mantle to-transparent" />
+        <div className="absolute inset-0 bg-gradient-to-r from-mocha-crust to-transparent" />
       </div>
       <div className="relative h-full flex flex-col justify-end p-6 md:p-12 container mx-auto">
         <div className="max-w-2xl space-y-4">
@@ -25,7 +25,7 @@ export default function FeaturedMovie({ title, description, imageUrl, rating, ye
           <div className="flex items-center gap-4 text-sm">
             <div className="flex items-center">
               <Star className="h-4 w-4 text-mocha-yellow mr-1" />
-              <span className="text-mocha-subtext1">{rating}/5</span>
+              <span className="text-mocha-subtext1">{rating}/10</span>
             </div>
             <span className="text-mocha-subtext1">{year}</span>
             <span className="text-mocha-subtext1">{duration}</span>

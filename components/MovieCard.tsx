@@ -3,7 +3,7 @@ import Image from "next/image"
 import { Star } from "lucide-react"
 
 interface MovieCardProps {
-  id: string
+  id: number
   title: string
   imageUrl: string
   rating: number
@@ -23,7 +23,7 @@ export default function MovieCard({ id, title, imageUrl, rating }: MovieCardProp
           <h3 className="font-medium text-sm text-mocha-text line-clamp-2">{title}</h3>
           <div className="flex items-center mt-1">
             <Star className="h-3 w-3 text-mocha-yellow mr-1" />
-            <span className="text-xs text-mocha-subtext1">{rating}/5</span>
+            <span className="text-xs text-mocha-subtext1">{rating}/10</span>
           </div>
         </div>
       </div>

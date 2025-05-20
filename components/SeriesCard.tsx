@@ -3,7 +3,7 @@ import Image from "next/image"
 import { Star } from "lucide-react"
 
 interface SeriesCardProps {
-  id: string
+  id: number
   title: string
   imageUrl: string
   rating: number
@@ -25,7 +25,7 @@ export default function SeriesCard({ id, title, imageUrl, rating, seasons }: Ser
           <div className="flex items-center justify-between mt-1">
             <div className="flex items-center">
               <Star className="h-3 w-3 text-mocha-yellow mr-1" />
-              <span className="text-xs text-mocha-subtext1">{rating}/5</span>
+              <span className="text-xs text-mocha-subtext1">{rating}/10</span>
             </div>
             {seasons && (
               <span className="text-xs text-mocha-subtext1">
