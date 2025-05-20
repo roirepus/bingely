@@ -33,7 +33,7 @@ jobs:
         name: Deploy to VPS
         uses: appleboy/ssh-action@master
         env:
-          NEXT_PRIVATE_TMDB_AUTH_HEADER: ${{secrets.NEXT_PRIVATE_TMDB_AUTH_HEADER }}
+          TMDB_AUTH_HEADER: ${{secrets.TMDB_AUTH_HEADER }}
         with:
           host: ${{secrets.SSH_HOST}}
           username: ${{secrets.SSH_USERNAME}}
@@ -42,4 +42,4 @@ jobs:
             docker pull roirepus/bingely:latest
             docker stop bingely || true
             docker rm bingely || true
-            docker run -d -p 3005:3000 -e NEXT_PRIVATE_TMDB_AUTH_HEADER=$NEXT_PRIVATE_TMDB_AUTH_HEADER --name bingely  roirepus/bingely:latest
+            docker run -d -p 3005:3000 -e NEXT_PRIVATE_TMDB_AUTH_HEADER=$TMDB_AUTH_HEADER --name bingely  roirepus/bingely:latest
