@@ -21,7 +21,9 @@ export default async function Home() {
         <FeaturedMovie
           title={featuredMovie.title}
           description={featuredMovie.overview}
-          imageUrl={`${imageUrlPrefix}original${featuredMovie.poster_path}`}
+          imageUrl={featuredMovie.poster_path ? `${imageUrlPrefix}original${featuredMovie.poster_path}`
+            : `/placeholder.svg`
+          }
           rating={featuredMovie.vote_average}
           year={2024}
           duration="166 min"
