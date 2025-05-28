@@ -23,9 +23,10 @@ export default function Header() {
             <Link href="/tv-shows" className="hover:text-mocha-blue  transition-colors text-mocha-overlay2 active:text-mocha-green">
               TV Shows
             </Link>
-            <Link href="/my-list" className="hover:text-mocha-blue  transition-colors text-mocha-overlay2 active:text-mocha-green">
+            {/*<Link href="/my-list" className="hover:text-mocha-blue  transition-colors text-mocha-overlay2 active:text-mocha-green">
               My List
-            </Link>
+            </Link >
+            */ }
           </nav>
         </div>
         <div className="flex items-center gap-4">
